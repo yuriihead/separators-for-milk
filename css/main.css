@@ -1,0 +1,31 @@
+.main  {
+    margin: 20px 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:25px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1%;
+}
+
+.bottom-select {
+    background-color: var (--select-bottom-color);
+}
+
+.name-of-card {
+    background-color: var(--background-color);
+    padding: 15px 0;
+}
+

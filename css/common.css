@@ -6,9 +6,10 @@
 
 :root {
     font-size:20px;
-    --h2-color: rgba(55, 207, 253, 0.562);
-    --background-color: rgb(235, 235, 235);
+    --h2-color: rgb(7, 97, 170);
+    --background-color: rgb(241, 241, 241);
     --text-color: black;
+    --select-bottom-color: rgb(166, 208, 255);
 }
 
 h2 {
@@ -20,3 +21,8 @@ img {
     display: block;
     width: 100%;
 }
+
+.container {
+    margin: 0 100px;
+}
+

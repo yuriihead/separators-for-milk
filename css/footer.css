@@ -1,0 +1,16 @@
+.end-menu {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+    gap: 20px;
+    
+}
+
+.footer {
+    background-color: var(--background-color);
+    text-align: end;
+    padding: 10px 40px 10px 40px;
+}
