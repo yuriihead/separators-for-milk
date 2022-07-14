@@ -5,4 +5,9 @@
 
 :root {
     font-size:20px;
+    --h2-color: rgba(55, 207, 253, 0.562);
+}
+
+h2 {
+    color: var(--h2-color);
 }
