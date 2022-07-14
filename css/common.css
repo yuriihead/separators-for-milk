@@ -7,6 +7,7 @@
 :root {
     font-size:20px;
     --h2-color: rgba(55, 207, 253, 0.562);
+    --background-color: rgb(104, 207, 255);
 }
 
 h2 {
