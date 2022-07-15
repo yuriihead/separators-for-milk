@@ -12,20 +12,25 @@
 .card {
     border: 1px solid black;
     width: 300px;
-    height: 500px;
+    height: 400px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     border-radius: 1%;
+
 }
 
-.bottom-select {
-    background-color: var (--select-bottom-color);
+.button-select {
+    margin: 15px 0;
+    padding: 5px 20px;
+    background-color: var (--background-color);
 }
 
 .name-of-card {
     background-color: var(--background-color);
     padding: 15px 0;
+    width: 100%;
 }
 
